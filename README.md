@@ -9,8 +9,8 @@ Note that the fact that it is a valid number does not necessarily mean that ther
 But this means that this number comply with the format required by **Receita Federal**.
 
 ## Sample
-```javascript
-function cnpjVlidator(cnpj) {
+```typescript
+function cnpjVlidator(cnpj: string) {
     ...
 }
 

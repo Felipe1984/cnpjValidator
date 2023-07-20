@@ -1,13 +1,19 @@
 {
-  "name": "cnpj_calc",
-  "version": "1.0.0",
-  "description": "",
-  "main": "cnpjValidator.js",
-  "scripts": {
-    "dev": "node cnpjValidator.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "name": "cnpj-validator",
+  "version": "1.4.0",
+  "description": "A simple CNPJ validator",
+  "main": "dist/cnpjValidator.js",
+  "keywords": [
+    "cnpj",
+    "cnpj validator",
+    "validador cnpj",
+    "validador de cnpj",
+    "cnpj-validator"
+  ],
+  "types": "index.d.ts",
   "author": "Felipe Britto dos Anjos",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
